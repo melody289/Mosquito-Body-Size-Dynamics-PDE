@@ -32,3 +32,8 @@ This runs the simulations with cyclic resources which is included in the growth 
 
 C_CyclicDeath.m
 This runs the simulations with cyclic resources which is included in the death rate of the mosquito larvae.
+
+
+
+The following is the code already prerun.
+VarCombFit.mat  % For Figure 4
