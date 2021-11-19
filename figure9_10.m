@@ -1,4 +1,4 @@
-
+load('cyclicgroup.mat')
 boxplot(mass25')
 set(gca, 'FontSize', 16, 'Position', [0.1000    0.1303    0.8500    0.7947])
 set(gcf, 'Position', [ 116   436   884   355])
