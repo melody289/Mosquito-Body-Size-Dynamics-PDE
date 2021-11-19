@@ -8,7 +8,6 @@ Will run the 13 parameter situations for simulating both high and low density, T
 HighVarPar.m 
 Will run the 13 parameter situations for simulating only high density data, This file creates the data set labeled ParHighFit.mat.
 
-
 LowVarPar.m 
 Will run the 13 parameter situations for simulating only low density data, This file creates the data set labeled ParLowFit.mat.
 
@@ -36,4 +35,5 @@ This runs the simulations with cyclic resources which is included in the death r
 
 
 The following is the code already prerun.
-VarCombFit.mat  % For Figure 4
+VarSepFit.mat  # For Figure 3
+VarCombFit.mat  # For Figure 4
