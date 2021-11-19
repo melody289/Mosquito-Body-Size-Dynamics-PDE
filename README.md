@@ -1,6 +1,8 @@
 # Mosquito-Body-Size-Dynamics-PDE
 
-The following files run various codes
+The following files run various codes 
+dataFormat.m 
+pulls the data from file (access this https://data.mendeley.com/datasets/2ddbwns4gb/1) and formats it into a matrix count
 
 difCombVar.m 
 Will run the 13 parameter situations for simulating both high and low density, This file creates the data set labeled ParCombFit.mat.
@@ -31,6 +33,11 @@ This runs the simulations with cyclic resources which is included in the growth 
 
 C_CyclicDeath.m
 This runs the simulations with cyclic resources which is included in the death rate of the mosquito larvae.
+
+CyclicMassCombine.m
+This was to take all the files saved from C_CyclicMass.m into a single matrix.
+
+Note: that several file runs were too large to include.
 
 
 
