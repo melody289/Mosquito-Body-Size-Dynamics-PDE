@@ -2,13 +2,13 @@
 
 The following files run various codes
 
-BothVarPar.m 
+difCombVar.m 
 Will run the 13 parameter situations for simulating both high and low density, This file creates the data set labeled ParCombFit.mat.
 
-HighVarPar.m 
+difHighVar.m 
 Will run the 13 parameter situations for simulating only high density data, This file creates the data set labeled ParHighFit.mat.
 
-LowVarPar.m 
+difLowVar.m 
 Will run the 13 parameter situations for simulating only low density data, This file creates the data set labeled ParLowFit.mat.
 
 ParError.m
@@ -37,3 +37,4 @@ This runs the simulations with cyclic resources which is included in the death r
 The following is the code already prerun.
 VarSepFit.mat  # For Figure 3
 VarCombFit.mat  # For Figure 4
+cyclicgroup.mat # For Figure 9 and 10
