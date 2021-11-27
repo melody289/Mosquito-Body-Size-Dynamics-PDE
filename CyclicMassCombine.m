@@ -39,13 +39,13 @@ ss = sprintf('C1par_cylicmass_%d.mat', omg(kkj));
 load(ss)
 
 
-massT = squeeze(sum(Ad,2));
+massT = squeeze(sum(Ad));
 mass25(kkj,:) = sum(massT(m25,:))./sum(massT);
 mass15(kkj,:) = sum(massT(m15,:))./sum(massT);
 
 ageT = squeeze(sum(Ad,2));
-age10(kkj,:) = sum(ageT(a10))./sum(ageT);
-age7(kkj,:) = sum(ageT(a7))./sum(ageT);
+age10(kkj,:) = sum(ageT(a10,:))./sum(ageT);
+age7(kkj,:) = sum(ageT(a7,:))./sum(ageT);
 
 end
 %%
