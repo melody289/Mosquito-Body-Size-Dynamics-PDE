@@ -40,6 +40,7 @@ This was to take all the files saved from C_CyclicMass.m into a single matrix.
 Note: that several file runs were too large to include.
 
 
+IC2.mat Contains inital conditions for some of the runs.
 
 The following is the code already prerun.
 VarSepFit.mat  # For Figure 3
